@@ -1,0 +1,38 @@
+body {
+	color: #000;
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.textures {
+	margin: 10px;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+
+.textures div {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 6px;
+}
+
+.tex1 {
+	background: url("tex1.png");
+}
+
+.tex2 {
+	background: url("tex2.png");
+}
+
+.tex3 {
+	background: url("tex3.png");
+}
+
+.zone {
+	margin: 10px;
+	background: #ddd;
+	height: 500px;
+	outline: 6px dashed #aaa;
+}
